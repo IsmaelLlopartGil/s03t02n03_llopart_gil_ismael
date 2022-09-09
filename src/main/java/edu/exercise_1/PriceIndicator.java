@@ -8,8 +8,8 @@ public class PriceIndicator {
 	private HashMap<String, Float> priceList;
 
 	public PriceIndicator(ConverterToEuro converter, HashMap<String, Float> priceList) {
-		this.converter = converter;
-		this.priceList = priceList;
+		setConverter(converter);
+		setPriceList(priceList);
 	}
 
 	public void indicate() {
