@@ -8,17 +8,17 @@ public class App {
 		HashMap<String, Float> dollarPriceList = new HashMap<>();
 		HashMap<String, Float> yuanPriceList = new HashMap<>();
 
-		dollarPriceList.put("Producto 1", 56.25f);
-		dollarPriceList.put("Producto 2", 24.50f);
-		dollarPriceList.put("Producto 3", 36.00f);
-		dollarPriceList.put("Producto 4", 15.00f);
-		dollarPriceList.put("Producto 5", 245.75f);
+		dollarPriceList.put("Producte 1", 56.25f);
+		dollarPriceList.put("Producte 2", 24.50f);
+		dollarPriceList.put("Producte 3", 36.00f);
+		dollarPriceList.put("Producte 4", 15.00f);
+		dollarPriceList.put("Producte 5", 245.75f);
 
-		yuanPriceList.put("Producto 6", 984.00f);
-		yuanPriceList.put("Producto 7", 158.00f);
-		yuanPriceList.put("Producto 8", 325.50f);
-		yuanPriceList.put("Producto 9", 635.00f);
-		yuanPriceList.put("Producto 10", 80.50f);
+		yuanPriceList.put("Producte 6", 984.00f);
+		yuanPriceList.put("Producte 7", 158.00f);
+		yuanPriceList.put("Producte 8", 325.50f);
+		yuanPriceList.put("Producte 9", 635.00f);
+		yuanPriceList.put("Producte 10", 80.50f);
 
 		PriceIndicator priceIndicator = new PriceIndicator(new DollarToEuroConverter(), dollarPriceList);
 		priceIndicator.indicate();
